@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.titulo{
+    color: #78D447;
+}
+
+
+.titulo:hover{
+    background-color: black;
+    font-size: 40px;
+}
+
+
+.paragrafo.titulo{
+    color: #78D447;
+}
+
+
+.secao{
+    background-color: darkgoldenrod;
+    border: 6px solid #000000;
+    border-radius: 30px;
+}
+
+.secao > p{
+    text-decoration: underline;
+}
+
+p::before{
+    content: '👍😁'
+}
+
+
+
+
+body{
+    background-color: #800080;
+}
